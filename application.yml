@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: prod
+
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-logan-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-logan-test
